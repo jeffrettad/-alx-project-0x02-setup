@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import PostCard from "@/components/common/PostCard";
 import { PostProps } from "@/interfaces";
 import Header from "@/components/layout/Header";
+["getStaticProps", "async", "await"]
 
 const PostsPage = () => {
   const [posts, setPosts] = useState<PostProps[]>([]);

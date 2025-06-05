@@ -1,3 +1,4 @@
+["import Button from", "@/components/common/Button", "Button"]
 const About = () => {
     return (
         <main className="p-4">

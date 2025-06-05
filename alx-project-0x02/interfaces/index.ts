@@ -8,5 +8,10 @@ export interface CardProps {
     label: string;
     onClick?: () => void;
   }
+  export interface PostProps {
+    userId: number;
+    title: string;
+    content: string;
+  }
   
   

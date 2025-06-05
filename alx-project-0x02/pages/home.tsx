@@ -1,6 +1,7 @@
 import Card from "@/components/common/Card";
 import { useState } from "react";
 import PostModal from "@/components/common/PostModal";
+import Header from "@/components/layout/Header";
 
 
 interface Post {
@@ -17,8 +18,10 @@ const Home = () => {
   };
 
   return (
+    <>
+    <Header/>
     <main className="p-6">
-      <h1 className="text-3xl font-bold mb-4">Home Page</h1>
+      <h1 className="text-3xl font-bold mb-4">Welcome to the Home Page</h1>
 
       <button
         className="mb-6 px-4 py-2 bg-blue-600 text-white rounded"
@@ -39,9 +42,13 @@ const Home = () => {
         ))}
       </div>
     </main>
+    </>
   );
 };
 
-export default Home;
 
+
+
+
+export default Home;
 
